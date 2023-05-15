@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo/newtask.dart';
 import 'package:todo/todotile.dart';
 
 void main() {
@@ -43,7 +44,7 @@ class _HomePageState extends State<HomePage> {
     showDialog(
         context: context,
         builder: (context) {
-          return AlertDialog();
+          return DialogBox();
         });
   }
 
