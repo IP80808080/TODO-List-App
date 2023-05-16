@@ -13,10 +13,10 @@ class MyButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.white.withOpacity(0.07),
-            blurRadius: 1,
-            spreadRadius: 0.000000005,
-            offset: Offset(3.4, 4),
+            color: Colors.white.withOpacity(0.04),
+            blurRadius: 0,
+            spreadRadius: -1,
+            offset: Offset(3, 3),
           )
         ],
       ),
